@@ -75,7 +75,7 @@ main {
 
 
 .main-title {
-    font-size: 3rem;
+    font-size: 4rem;
 }
 .sub-title {
     font-size: 1.8rem;
@@ -176,7 +176,7 @@ footer div {
     
 }
 .central-txt{
-    padding: 80px 0px 80px 0px;
+    padding: 80px 0px 40px 0px;
     text-align: center;
 }
 .ribbon {
@@ -197,8 +197,52 @@ footer div {
 }
 
 .gallery-container div h2 {
-    
+
 }
 .gallery-container div h4 {
     color: #777;
+}
+
+.split-two {
+    padding: 50px;
+    display: flex;
+} 
+.txt-sectionl {
+    flex:1;
+}
+.txt-sectionr {
+    flex:1;
+}
+.admission-prices {
+    width: 100%;
+}
+.admission-prices li {
+    display: flex;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0 10px 0;
+    justify-content: space-between;
+}
+.line {
+    border-bottom: 1px solid #ccc;
+}
+.force-center {
+    text-align: center;
+}
+
+.dum-list li {
+    padding: 10px;
+} 
+
+.midware{
+    width: 100%;
+    padding: 60px;
+}
+
+.contact-info {
+    padding: 30px;
+}
+.contact-info li {
+    list-style-type: none;
+    color: #fff;
+    margin-top: 20px;
 }
